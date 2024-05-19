@@ -64,20 +64,6 @@ public:
     nodes++;
   }
 
-  // void pop_front()
-  // {
-  //   if (is_empty())
-  //   {
-  //     return;
-  //   }
-
-  //   auto *newHead = head;
-  //   head = head->next;
-  //   delete newHead;
-  //   head = newHead;
-  //   nodes--;
-  // }
-
   void pop_front()
   {
     if (is_empty())
